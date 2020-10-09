@@ -164,6 +164,9 @@ body{
 
 .card-title-reg{
     font-weight: 400;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
 }
 .card-tag{
     font-weight: normal;
@@ -242,6 +245,10 @@ body{
     line-height: 21px;
 
     color: #8C8C8C;
+
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
 }
 
 .footer{
@@ -438,6 +445,7 @@ body{
     .card{
         flex-basis: 49%;
     }
+
 
     .footer-link{
         font-size: 16px;
